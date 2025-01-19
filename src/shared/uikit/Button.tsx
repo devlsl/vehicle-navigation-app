@@ -28,6 +28,12 @@ const StyledButton = styled.button`
   &:hover {
     opacity: 0.9;
   }
+
+  &:disabled {
+    opacity: 0.4;
+    transform: none;
+    cursor: default;
+  }
 `;
 
 type Props = React.ButtonHTMLAttributes<HTMLButtonElement>;

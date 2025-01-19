@@ -3,12 +3,15 @@
 @import url("./colors.css");
 @import url("./variables.css");
 
-body {
+body,
+html,
+#root {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  height: 100dvh;
+  height: 100%;
+  min-height: 100dvh;
   width: 100%;
   background-color: var(--background-color);
 }

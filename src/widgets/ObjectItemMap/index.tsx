@@ -16,7 +16,6 @@ const MapWrapper = styled(MapContainer)`
   border: 1px solid var(--line-color);
   width: 100%;
   height: 100%;
-  min-height: 100%;
 `;
 
 type Props = {
