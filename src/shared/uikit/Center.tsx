@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { centerFlex } from "../styled/center";
-import { stretch } from "../styled/stretch";
 
-export const Center = styled.div`
+export const FullPage = styled.div`
   ${centerFlex}
-  ${stretch}
+  height: 100dvh;
+  width: 100dvh;
 `;

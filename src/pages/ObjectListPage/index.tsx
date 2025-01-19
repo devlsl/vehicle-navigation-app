@@ -8,6 +8,7 @@ import { ObjectItem } from "./item.tsx";
 import { stretch } from "../../shared/styled/stretch.ts";
 import { container } from "../../shared/styled/container.ts";
 import { TextLink } from "../../shared/uikit/TextLink.tsx";
+import { VerticalSpace } from "../../shared/uikit/VerticalSpace.tsx";
 
 const Wrapper = styled.div`
   ${stretch}
@@ -45,6 +46,7 @@ export const ObjectListPage = () => {
 
         <PageTitle>Объекты</PageTitle>
         <ListWrapper>{List}</ListWrapper>
+        <VerticalSpace $size="60px" />
       </Wrapper>
     );
   }

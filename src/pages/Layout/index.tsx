@@ -4,16 +4,16 @@ import { Toaster } from "../../widgets/Toaster";
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 100px;
+  overflow: auto;
 `;
 
 export const Layout = () => (
   <>
-    <Toaster />
     <Wrapper>
+      <Toaster />
       <Outlet />
     </Wrapper>
   </>

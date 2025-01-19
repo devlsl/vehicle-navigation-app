@@ -1,5 +1,3 @@
-import { Center } from "../../shared/uikit/Center";
+import { FullPage } from "../../shared/uikit/Center";
 
-export const LoadingPage = () => {
-  return <Center>Loading...</Center>;
-};
+export const LoadingPage = () => <FullPage>Loading...</FullPage>;

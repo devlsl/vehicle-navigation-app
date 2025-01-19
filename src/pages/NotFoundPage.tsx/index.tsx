@@ -1,5 +1,5 @@
-import { Center } from "../../shared/uikit/Center";
+import { FullPage } from "../../shared/uikit/Center";
 
-export const NotFoundPage = ({ entityName }: { entityName: string }) => {
-  return <Center>{entityName} not found</Center>;
-};
+export const NotFoundPage = ({ entityName }: { entityName: string }) => (
+  <FullPage>{entityName} not found</FullPage>
+);

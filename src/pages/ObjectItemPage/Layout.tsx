@@ -18,6 +18,7 @@ import { RouteList } from "./RouteList";
 import { Route } from "./types/Route";
 import { TextLink } from "../../shared/uikit/TextLink";
 import toast from "react-hot-toast";
+import { VerticalSpace } from "../../shared/uikit/VerticalSpace";
 
 const Wrapper = styled.div`
   ${container}
@@ -29,8 +30,7 @@ const Wrapper = styled.div`
 `;
 
 const MapWrapper = styled.div`
-  display: flex;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
   border: 4px solid var(--line-color);
   ${rounded("m")}
@@ -210,6 +210,7 @@ export const ObjectItemPageLayout = ({ objectItem, vehicles }: Props) => {
           }
         />
       )}
+      <VerticalSpace $size="60px" />
     </Wrapper>
   );
 };
