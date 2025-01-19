@@ -1,3 +1,3 @@
-import { FullPage } from "../../shared/uikit/Center";
+import { FullPage } from "../../shared/uikit/FullPage";
 
 export const LoadingPage = () => <FullPage>Loading...</FullPage>;
