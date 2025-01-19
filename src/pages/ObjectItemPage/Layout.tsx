@@ -30,9 +30,7 @@ const Wrapper = styled.div`
 
 const MapWrapper = styled.div`
   display: flex;
-  min-height: 400px;
-  height: 100%;
-  max-height: 600px;
+  height: 600px;
   overflow: hidden;
   border: 4px solid var(--line-color);
   ${rounded("m")}
