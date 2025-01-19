@@ -1,6 +1,7 @@
 import { Toaster } from "react-hot-toast";
 import { Outlet } from "react-router";
 import styled from "styled-components";
+import { Toaster } from "../../widgets/Toaster";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -11,7 +12,7 @@ const Wrapper = styled.div`
 
 export const Layout = () => (
   <>
-    <Toaster position="bottom-left" containerStyle={{ fontSize: "1.4rem" }} />
+    <Toaster />
     <Wrapper>
       <Outlet />
     </Wrapper>
